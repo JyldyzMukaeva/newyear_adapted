@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Campanella';
+    src: url('./fonts/campanella.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/campanella.eot?#iefix') format('embedded-opentype'), /* IE < 9 */ url('./fonts/campanella.woff2') format('woff2'), /* Super Modern Browsers */ url('./fonts/campanella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */ url('./fonts/campanella.ttf') format('truetype'), /* Safari, Android, iOS */ url('./fonts/campanella.svg#campanella') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/gilroy-light.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/gilroy-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */ url('./fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */ url('./fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */ url('./fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */ url('./fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+body {
+    background-color: #1A5B35;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.right-top {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.left-melody {
+    position: absolute;
+    left: 37px;
+    bottom: 95px;
+}
+
+.content {
+    max-width: 660px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+.title {
+    margin: 0;
+    font-size: 75px;
+    font-family: 'Campanella', 'sans-serif';
+    color: #CEB076;
+}
+
+
+.subsign {
+    margin-left: 100px;
+}
+
+.congrats {
+    color: #FFFF;
+    line-height: 22px;
+    font-size: 18px;
+    font-family: 'Gilroy', 'sans-serif';
+   }
+
+.left-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign span {
+    font-family: 'Gilroy';
+    color: #FFFF;
+    line-height: 22px;
+    font-size: 22px;
+
+}
+
+
+.logo {
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .title {
+        margin-top: 335px;
+        margin-bottom: 50px;
+        width: 328px;
+        height: 80px;
+    }
+
+    .congrats {
+
+        width: 328px;
+        height: 456px;
+    }
+
+    .right-top {
+        display: none;
+    }
+
+    .left-bottom {
+        display: none;
+    }
+
+    .left-melody {
+
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .sign {
+        padding-top: 80px;
+    }
+
+    .sign span {
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+
+    .subsign {
+        margin-left: 60px;
+        line-height: 18px;
+        font-size: 22px;
+        margin: 1px;
+    }
+
+    .left-melody {
+        position: absolute;
+        top: 110px;
+        left: 85%;
+    }
+
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 89px;
+        height: 36px;
+    }
+    .center{
+        width:84px;
+        height: 90px;
+}
+
+/*div {*/
+/*    width: 160px;*/
+/*    height: 80px;*/
+/*    padding: 40px;*/
+/*    border: 8px solid red;*/
+/*    background: yellow;*/
+/*}*/
+
+/*.content-box {*/
+/*    box-sizing: content-box;*/
+    /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+       Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+       Content box width: 160px
+       Content box height: 80px */
+}
+
+/*.border-box {*/
+/*    box-sizing: border-box;*/
+
+/*}*/
+
+
+
