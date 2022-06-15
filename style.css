@@ -126,6 +126,11 @@ body {
         height: 456px;
     }
 
+    .left-top{
+        width: 100px;
+        height: 165px;
+    }
+
     .right-top {
         display: none;
     }
@@ -172,31 +177,14 @@ body {
         width: 89px;
         height: 36px;
     }
-    .center{
-        width:84px;
+
+    .center {
+        width: 84px;
         height: 90px;
+    }
 }
 
-/*div {*/
-/*    width: 160px;*/
-/*    height: 80px;*/
-/*    padding: 40px;*/
-/*    border: 8px solid red;*/
-/*    background: yellow;*/
-/*}*/
 
-/*.content-box {*/
-/*    box-sizing: content-box;*/
-    /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
-       Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
-       Content box width: 160px
-       Content box height: 80px */
-}
-
-/*.border-box {*/
-/*    box-sizing: border-box;*/
-
-/*}*/
 
 
 
